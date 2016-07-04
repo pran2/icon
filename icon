@@ -40,5 +40,6 @@
 		L.marker([51.49, -0.1], {icon: orangeIcon}).bindPopup("I am a restaurant.").addTo(map);
 
 	</script>
+<img scr="plane.png"/>
 </body>
 </html>
