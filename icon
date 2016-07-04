@@ -31,13 +31,13 @@
 			}
 		});
 
-		var greenIcon = new LeafIcon({iconUrl: '../docs/images/leaf-green.png'}),
-			redIcon = new LeafIcon({iconUrl: '../docs/images/leaf-red.png'}),
-			orangeIcon = new LeafIcon({iconUrl: '../docs/images/leaf-orange.png'});
+		var greenIcon = new LeafIcon({iconUrl: '..plane.png'}),
+			redIcon = new LeafIcon({iconUrl: '..hotel.png'}),
+			orangeIcon = new LeafIcon({iconUrl: '..restaurant.png'});
 
-		L.marker([51.5, -0.09], {icon: greenIcon}).bindPopup("I am a green leaf.").addTo(map);
-		L.marker([51.495, -0.083], {icon: redIcon}).bindPopup("I am a red leaf.").addTo(map);
-		L.marker([51.49, -0.1], {icon: orangeIcon}).bindPopup("I am an orange leaf.").addTo(map);
+		L.marker([51.5, -0.09], {icon: greenIcon}).bindPopup("I am a plane.").addTo(map);
+		L.marker([51.495, -0.083], {icon: redIcon}).bindPopup("I am a hotel.").addTo(map);
+		L.marker([51.49, -0.1], {icon: orangeIcon}).bindPopup("I am a restaurant.").addTo(map);
 
 	</script>
 </body>
