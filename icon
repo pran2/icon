@@ -31,9 +31,9 @@
 			}
 		});
 
-		var greenIcon = new LeafIcon({iconUrl: 'plane.png'}),
+		var greenIcon = new LeafIcon({iconUrl: "plane.png"}),
 			redIcon = new LeafIcon({iconUrl: "hotel.png"}),
-			orangeIcon = new LeafIcon({iconUrl: 'restaurant.png'});
+			orangeIcon = new LeafIcon({iconUrl: "restaurant.png"});
 
 		L.marker([51.5, -0.09], {icon: greenIcon}).bindPopup("I am a plane.").addTo(map);
 		L.marker([51.495, -0.083], {icon: redIcon}).bindPopup("I am a hotel.").addTo(map);
