@@ -31,7 +31,7 @@
 			}
 		});
 
-		var greenIcon = new LeafIcon({iconUrl: '..plane.png'}),
+		var greenIcon = new LeafIcon({iconUrl: 'plane.png'}),
 			redIcon = new LeafIcon({iconUrl: '..hotel.png'}),
 			orangeIcon = new LeafIcon({iconUrl: '..restaurant.png'});
 
